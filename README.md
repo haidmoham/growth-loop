@@ -4,6 +4,16 @@ A 3-step system for getting better at anything, on purpose: **diagnose where you
 
 Domain-agnostic. Built by generalizing a diagnostic-first ML self-study system; nothing about the mechanism is ML- or software-specific.
 
+## Fastest way to try it
+
+Paste this link into your AI chat of choice and ask it to run the Diagnose step on you:
+
+**https://github.com/haidmoham/growth-loop/blob/main/PORTABLE-PROMPT.md**
+
+Tested: a direct link to that file reliably returns the full prompt text in one fetch, ready to run, from GitHub's normal file view — no install needed.
+
+**Tested and confirmed not to work: pasting just the bare repo link (`github.com/haidmoham/growth-loop`).** A plain fetch of the repo root only picks up the README's description of what this is — it stops there and asks you to supply the actual prompt text yourself, rather than retrieving it. A sufficiently agentic assistant that you explicitly ask to "go use this" may follow the link on its own anyway, but that depends on the assistant, not on this repo — don't rely on it. Link straight to the file.
+
 ## Why this exists
 
 Most self-improvement plans are a guess about where someone stands. The guess fails in one of two directions: re-teaching things already known (wastes time, kills motivation), or building on confidence that's actually shallow (invisible until it fails under real pressure). This fixes that by running a real diagnostic first, and refusing to build a plan until it exists.
@@ -21,7 +31,7 @@ Copy each folder under `skills/` into `~/.claude/skills/` (applies everywhere) o
 
 ## No Claude Code? Use `PORTABLE-PROMPT.md`
 
-Same mechanism, no install — copy-paste prompts into any AI chat. You carry the state yourself (save each output somewhere) instead of it living in a file.
+Same mechanism, no install — see "Fastest way to try it" above. You carry the state yourself (save each output somewhere) instead of it living in a file.
 
 ## Read before you trust this — and before you hand it to anyone else
 
